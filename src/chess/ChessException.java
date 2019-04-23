@@ -2,10 +2,10 @@ package chess;
 
 import boardgame.BoardExcepition;
 
-public class ChessExcepition extends BoardExcepition{
+public class ChessException extends BoardExcepition{
 	private static final long serialVersionUID = 1L;
 
-	public ChessExcepition(String msg) {
+	public ChessException(String msg) {
 		super(msg);
 	}
 }
